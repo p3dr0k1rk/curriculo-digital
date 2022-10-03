@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ecece7;
+  background-color: rgba(118, 143, 93, 0.816);
   font-size: 1em;
 }
 .sidebar {
   width: 20%;
-  height: 100vh;
+  height: 120vh;
   background-color: rgba(82, 120, 23, 0.876);
   position: relative;
   padding: 20px;
@@ -42,6 +42,8 @@ body {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 .sobrenome {
   color: rgba(82, 120, 23, 0.876);
@@ -60,6 +62,52 @@ main {
   
 }
 h3 a {
+  margin-top: 100px;
   color: rgba(82, 120, 23, 0.876);
   text-decoration: none;
+  transition: color 0.5s;
 }
+h3 a:hover{
+  color: #d40606;
+}
+article{
+  position: relative;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.social-media i {
+  margin-top: 30px;
+  position: relative;
+  padding: 8px 8px 20px 8px; 
+  background-color: rgba(165, 243, 165, 0.69);
+  color: rgba(82, 120, 23, 0.876);
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 1s;
+}
+
+.social-media i:hover {
+  background-color: rgb(130, 209, 243);
+}
+.ordenada li{
+ 
+  font-weight: 400;
+}
+ .ordenada li i{
+  
+  color: rgba(82, 120, 23, 0.876);;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  font-size: 2.5rem;
+ }
+ main ul{
+  font-size: 1.5rem;
+ }
